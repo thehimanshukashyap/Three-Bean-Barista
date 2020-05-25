@@ -1,0 +1,791 @@
+E:\This PC\Three Bean Barista\loginDB.accdb	25 May 2020
+Table: customCoffee	Page: 1
+	Properties
+	DateCreated: 	13-09-2019 01:32:13 AM	DefaultView: 	2
+	DisplayViewsOnSharePointSit	1	FilterOnLoad: 	False
+	GUID: 	{guid {57E86360-65FF-470D-	HideNewField: 	False
+	A607-96E269DA3729}}
+	LastUpdated: 	13-09-2019 02:20:24 AM	NameMap: 	Long binary data
+	OrderByOn: 	False	OrderByOnLoad: 	True
+	Orientation: 	Left-to-Right	RecordCount: 	0
+	TotalsRow: 	False	Updatable: 	True
+	Columns
+	Name	Type	Size
+	id	Text	255
+	AggregateType: 	-1
+	AllowZeroLength: 	True
+	AppendOnly: 	False
+	Attributes: 	Variable Length
+	CollatingOrder: 	General
+	ColumnHidden: 	False
+	ColumnOrder: 	1
+	ColumnWidth: 	Default
+	DataUpdatable: 	False
+	DisplayControl: 	Text Box
+	IMEMode: 	0
+	IMESentenceMode: 	3
+	OrdinalPosition: 	0
+	Required: 	False
+	SourceField: 	id
+	SourceTable: 	customCoffee
+	TextAlign: 	General
+	UnicodeCompression: 	False
+	beans	Text	255
+	AggregateType: 	-1
+	AllowZeroLength: 	True
+	AppendOnly: 	False
+	Attributes: 	Variable Length
+	CollatingOrder: 	General
+	ColumnHidden: 	False
+	ColumnOrder: 	Default
+	ColumnWidth: 	Default
+	DataUpdatable: 	False
+	DisplayControl: 	Text Box
+	IMEMode: 	0
+	IMESentenceMode: 	3
+	OrdinalPosition: 	1
+	Required: 	False
+	SourceField: 	beans
+	SourceTable: 	customCoffee
+	TextAlign: 	General
+	UnicodeCompression: 	True
+E:\This PC\Three Bean Barista\loginDB.accdb	25 May 2020
+Table: customCoffee	Page: 2
+	roast	Text	255
+	AggregateType: 	-1
+	AllowZeroLength: 	True
+	AppendOnly: 	False
+	Attributes: 	Variable Length
+	CollatingOrder: 	General
+	ColumnHidden: 	False
+	ColumnOrder: 	Default
+	ColumnWidth: 	Default
+	DataUpdatable: 	False
+	DisplayControl: 	Text Box
+	IMEMode: 	0
+	IMESentenceMode: 	3
+	OrdinalPosition: 	2
+	Required: 	False
+	SourceField: 	roast
+	SourceTable: 	customCoffee
+	TextAlign: 	General
+	UnicodeCompression: 	True
+	grind	Text	255
+	AggregateType: 	-1
+	AllowZeroLength: 	True
+	AppendOnly: 	False
+	Attributes: 	Variable Length
+	CollatingOrder: 	General
+	ColumnHidden: 	False
+	ColumnOrder: 	Default
+	ColumnWidth: 	Default
+	DataUpdatable: 	False
+	DisplayControl: 	Text Box
+	IMEMode: 	0
+	IMESentenceMode: 	3
+	OrdinalPosition: 	3
+	Required: 	False
+	SourceField: 	grind
+	SourceTable: 	customCoffee
+	TextAlign: 	General
+	UnicodeCompression: 	True
+	method	Text	255
+	AggregateType: 	-1
+	AllowZeroLength: 	True
+	AppendOnly: 	False
+	Attributes: 	Variable Length
+	CollatingOrder: 	General
+	ColumnHidden: 	False
+	ColumnOrder: 	Default
+	ColumnWidth: 	Default
+	DataUpdatable: 	False
+	DisplayControl: 	Text Box
+	IMEMode: 	0
+	IMESentenceMode: 	3
+	OrdinalPosition: 	4
+	Required: 	False
+	SourceField: 	method
+E:\This PC\Three Bean Barista\loginDB.accdb	25 May 2020
+Table: customCoffee	Page: 3
+	SourceTable: 	customCoffee
+	TextAlign: 	General
+	UnicodeCompression: 	True
+	Table Indexes
+	Name	Number of Fields
+	PrimaryKey	1
+	Clustered: 	False
+	DistinctCount: 	13
+	Foreign: 	False
+	IgnoreNulls: 	False
+	Name: 	PrimaryKey
+	Primary: 	True
+	Required: 	True
+	Unique: 	True
+	Fields:
+	id	Ascending
+	User Permissions
+	admin	Delete, Read Permissions, Set Permissions, Change Owner, Read Definition, 
+	Write Definition, Read Data, Insert Data, Update Data, Delete Data
+	Group Permissions
+	Admins	Delete, Read Permissions, Set Permissions, Change Owner, Read Definition, 
+	Write Definition, Read Data, Insert Data, Update Data, Delete Data
+	Users	Delete, Read Permissions, Set Permissions, Change Owner, Read Definition, 
+	Write Definition, Read Data, Insert Data, Update Data, Delete Data
+E:\This PC\Three Bean Barista\loginDB.accdb	25 May 2020
+Table: menu	Page: 4
+	Properties
+	DateCreated: 	12-09-2019 12:40:25 PM	DefaultView: 	2
+	DisplayViewsOnSharePointSit	1	FilterOnLoad: 	False
+	GUID: 	{guid {B89E4204-F571-45A3-	HideNewField: 	False
+	93DE-4DB73D7A854E}}
+	LastUpdated: 	12-09-2019 08:26:27 PM	NameMap: 	Long binary data
+	OrderByOn: 	False	OrderByOnLoad: 	True
+	Orientation: 	Left-to-Right	RecordCount: 	7
+	TotalsRow: 	False	Updatable: 	True
+	Columns
+	Name	Type	Size
+	mID	Text	255
+	AggregateType: 	-1
+	AllowZeroLength: 	True
+	AppendOnly: 	False
+	Attributes: 	Variable Length
+	CollatingOrder: 	General
+	ColumnHidden: 	False
+	ColumnOrder: 	1
+	ColumnWidth: 	Default
+	DataUpdatable: 	False
+	DisplayControl: 	Text Box
+	IMEMode: 	0
+	IMESentenceMode: 	3
+	OrdinalPosition: 	0
+	Required: 	False
+	SourceField: 	mID
+	SourceTable: 	menu
+	TextAlign: 	General
+	UnicodeCompression: 	False
+	item	Text	255
+	AggregateType: 	-1
+	AllowZeroLength: 	True
+	AppendOnly: 	False
+	Attributes: 	Variable Length
+	CollatingOrder: 	General
+	ColumnHidden: 	False
+	ColumnOrder: 	Default
+	ColumnWidth: 	Default
+	DataUpdatable: 	False
+	DisplayControl: 	Text Box
+	IMEMode: 	0
+	IMESentenceMode: 	3
+	OrdinalPosition: 	1
+	Required: 	False
+	SourceField: 	item
+	SourceTable: 	menu
+	TextAlign: 	General
+	UnicodeCompression: 	True
+E:\This PC\Three Bean Barista\loginDB.accdb	25 May 2020
+Table: menu	Page: 5
+	price	Text	255
+	AggregateType: 	-1
+	AllowZeroLength: 	True
+	AppendOnly: 	False
+	Attributes: 	Variable Length
+	CollatingOrder: 	General
+	ColumnHidden: 	False
+	ColumnOrder: 	Default
+	ColumnWidth: 	Default
+	DataUpdatable: 	False
+	DisplayControl: 	Text Box
+	IMEMode: 	0
+	IMESentenceMode: 	3
+	OrdinalPosition: 	2
+	Required: 	False
+	SourceField: 	price
+	SourceTable: 	menu
+	TextAlign: 	General
+	UnicodeCompression: 	True
+	image	Text	255
+	AggregateType: 	-1
+	AllowZeroLength: 	True
+	AppendOnly: 	False
+	Attributes: 	Variable Length
+	CollatingOrder: 	General
+	ColumnHidden: 	False
+	ColumnOrder: 	Default
+	ColumnWidth: 	Default
+	DataUpdatable: 	False
+	DisplayControl: 	Text Box
+	IMEMode: 	0
+	IMESentenceMode: 	3
+	OrdinalPosition: 	3
+	Required: 	False
+	SourceField: 	image
+	SourceTable: 	menu
+	TextAlign: 	General
+	UnicodeCompression: 	True
+	flag	Text	255
+	AggregateType: 	-1
+	AllowZeroLength: 	True
+	AppendOnly: 	False
+	Attributes: 	Variable Length
+	CollatingOrder: 	General
+	ColumnHidden: 	False
+	ColumnOrder: 	Default
+	ColumnWidth: 	Default
+	DataUpdatable: 	False
+	DisplayControl: 	Text Box
+	IMEMode: 	0
+	IMESentenceMode: 	3
+	OrdinalPosition: 	4
+	Required: 	False
+	SourceField: 	flag
+E:\This PC\Three Bean Barista\loginDB.accdb	25 May 2020
+Table: menu	Page: 6
+	SourceTable: 	menu
+	TextAlign: 	General
+	UnicodeCompression: 	True
+	Table Indexes
+	Name	Number of Fields
+	PrimaryKey	1
+	Clustered: 	False
+	DistinctCount: 	10
+	Foreign: 	False
+	IgnoreNulls: 	False
+	Name: 	PrimaryKey
+	Primary: 	True
+	Required: 	True
+	Unique: 	True
+	Fields:
+	mID	Ascending
+	User Permissions
+	admin	Delete, Read Permissions, Set Permissions, Change Owner, Read Definition, 
+	Write Definition, Read Data, Insert Data, Update Data, Delete Data
+	Group Permissions
+	Admins	Delete, Read Permissions, Set Permissions, Change Owner, Read Definition, 
+	Write Definition, Read Data, Insert Data, Update Data, Delete Data
+	Users	Delete, Read Permissions, Set Permissions, Change Owner, Read Definition, 
+	Write Definition, Read Data, Insert Data, Update Data, Delete Data
+E:\This PC\Three Bean Barista\loginDB.accdb	25 May 2020
+Table: orderSuccess	Page: 7
+	Properties
+	DateCreated: 	12-09-2019 10:03:00 PM	DefaultView: 	2
+	DisplayViewsOnSharePointSit	1	FilterOnLoad: 	False
+	GUID: 	{guid {D0E6CD70-8658-4660-	HideNewField: 	False
+	BA88-DE0749BBC4BE}}
+	LastUpdated: 	14-09-2019 07:01:09 PM	NameMap: 	Long binary data
+	OrderByOn: 	False	OrderByOnLoad: 	True
+	Orientation: 	Left-to-Right	RecordCount: 	4
+	TotalsRow: 	False	Updatable: 	True
+	Columns
+	Name	Type	Size
+	id	Text	255
+	AggregateType: 	-1
+	AllowZeroLength: 	True
+	AppendOnly: 	False
+	Attributes: 	Variable Length
+	CollatingOrder: 	General
+	ColumnHidden: 	False
+	ColumnOrder: 	1
+	ColumnWidth: 	Default
+	DataUpdatable: 	False
+	DisplayControl: 	Text Box
+	IMEMode: 	0
+	IMESentenceMode: 	3
+	OrdinalPosition: 	0
+	Required: 	False
+	SourceField: 	id
+	SourceTable: 	orderSuccess
+	TextAlign: 	General
+	UnicodeCompression: 	False
+	item	Text	255
+	AggregateType: 	-1
+	AllowZeroLength: 	True
+	AppendOnly: 	False
+	Attributes: 	Variable Length
+	CollatingOrder: 	General
+	ColumnHidden: 	False
+	ColumnOrder: 	Default
+	ColumnWidth: 	Default
+	DataUpdatable: 	False
+	DisplayControl: 	Text Box
+	IMEMode: 	0
+	IMESentenceMode: 	3
+	OrdinalPosition: 	1
+	Required: 	False
+	SourceField: 	item
+	SourceTable: 	orderSuccess
+	TextAlign: 	General
+	UnicodeCompression: 	True
+E:\This PC\Three Bean Barista\loginDB.accdb	25 May 2020
+Table: orderSuccess	Page: 8
+	qty	Text	255
+	AggregateType: 	-1
+	AllowZeroLength: 	True
+	AppendOnly: 	False
+	Attributes: 	Variable Length
+	CollatingOrder: 	General
+	ColumnHidden: 	False
+	ColumnOrder: 	Default
+	ColumnWidth: 	Default
+	DataUpdatable: 	False
+	DisplayControl: 	Text Box
+	IMEMode: 	0
+	IMESentenceMode: 	3
+	OrdinalPosition: 	2
+	Required: 	False
+	SourceField: 	qty
+	SourceTable: 	orderSuccess
+	TextAlign: 	General
+	UnicodeCompression: 	True
+	price	Text	255
+	AggregateType: 	-1
+	AllowZeroLength: 	True
+	AppendOnly: 	False
+	Attributes: 	Variable Length
+	CollatingOrder: 	General
+	ColumnHidden: 	False
+	ColumnOrder: 	Default
+	ColumnWidth: 	Default
+	DataUpdatable: 	False
+	DisplayControl: 	Text Box
+	IMEMode: 	0
+	IMESentenceMode: 	3
+	OrdinalPosition: 	3
+	Required: 	False
+	SourceField: 	price
+	SourceTable: 	orderSuccess
+	TextAlign: 	General
+	UnicodeCompression: 	False
+	Table Indexes
+	Name	Number of Fields
+	PrimaryKey	1
+	Clustered: 	False
+	DistinctCount: 	4
+	Foreign: 	False
+	IgnoreNulls: 	False
+	Name: 	PrimaryKey
+	Primary: 	True
+	Required: 	True
+	Unique: 	True
+	Fields:
+	id	Ascending
+E:\This PC\Three Bean Barista\loginDB.accdb	25 May 2020
+Table: orderSuccess	Page: 9
+	User Permissions
+	admin	Delete, Read Permissions, Set Permissions, Change Owner, Read Definition, 
+	Write Definition, Read Data, Insert Data, Update Data, Delete Data
+	Group Permissions
+	Admins	Delete, Read Permissions, Set Permissions, Change Owner, Read Definition, 
+	Write Definition, Read Data, Insert Data, Update Data, Delete Data
+	Users	Delete, Read Permissions, Set Permissions, Change Owner, Read Definition, 
+	Write Definition, Read Data, Insert Data, Update Data, Delete Data
+E:\This PC\Three Bean Barista\loginDB.accdb	25 May 2020
+Table: personalisedProfile	Page: 10
+	Properties
+	DateCreated: 	09-09-2019 10:25:31 PM	DefaultView: 	2
+	DisplayViewsOnSharePointSit	1	FilterOnLoad: 	False
+	GUID: 	{guid {92ED90A8-4BD6-4611-	HideNewField: 	False
+	A3AF-F588C051E542}}
+	LastUpdated: 	14-09-2019 07:00:54 PM	NameMap: 	Long binary data
+	OrderByOn: 	False	OrderByOnLoad: 	True
+	Orientation: 	Left-to-Right	RecordCount: 	4
+	TotalsRow: 	False	Updatable: 	True
+	Columns
+	Name	Type	Size
+	pID	Text	255
+	AggregateType: 	-1
+	AllowZeroLength: 	True
+	AppendOnly: 	False
+	Attributes: 	Variable Length
+	CollatingOrder: 	General
+	ColumnHidden: 	False
+	ColumnOrder: 	1
+	ColumnWidth: 	Default
+	DataUpdatable: 	False
+	DisplayControl: 	Text Box
+	IMEMode: 	0
+	IMESentenceMode: 	3
+	OrdinalPosition: 	0
+	Required: 	False
+	SourceField: 	pID
+	SourceTable: 	personalisedProfile
+	TextAlign: 	General
+	UnicodeCompression: 	False
+	item1	Text	255
+	AggregateType: 	-1
+	AllowZeroLength: 	True
+	AppendOnly: 	False
+	Attributes: 	Variable Length
+	CollatingOrder: 	General
+	ColumnHidden: 	False
+	ColumnOrder: 	2
+	ColumnWidth: 	Default
+	DataUpdatable: 	False
+	DisplayControl: 	Text Box
+	IMEMode: 	0
+	IMESentenceMode: 	3
+	OrdinalPosition: 	1
+	Required: 	False
+	SourceField: 	item1
+	SourceTable: 	personalisedProfile
+	TextAlign: 	General
+	UnicodeCompression: 	True
+E:\This PC\Three Bean Barista\loginDB.accdb	25 May 2020
+Table: personalisedProfile	Page: 11
+	item2	Text	255
+	AggregateType: 	-1
+	AllowZeroLength: 	True
+	AppendOnly: 	False
+	Attributes: 	Variable Length
+	CollatingOrder: 	General
+	ColumnHidden: 	False
+	ColumnOrder: 	3
+	ColumnWidth: 	Default
+	DataUpdatable: 	False
+	DisplayControl: 	Text Box
+	IMEMode: 	0
+	IMESentenceMode: 	3
+	OrdinalPosition: 	2
+	Required: 	False
+	SourceField: 	item2
+	SourceTable: 	personalisedProfile
+	TextAlign: 	General
+	UnicodeCompression: 	True
+	item3	Text	255
+	AggregateType: 	-1
+	AllowZeroLength: 	True
+	AppendOnly: 	False
+	Attributes: 	Variable Length
+	CollatingOrder: 	General
+	ColumnHidden: 	False
+	ColumnOrder: 	4
+	ColumnWidth: 	Default
+	DataUpdatable: 	False
+	DisplayControl: 	Text Box
+	IMEMode: 	0
+	IMESentenceMode: 	3
+	OrdinalPosition: 	3
+	Required: 	False
+	SourceField: 	item3
+	SourceTable: 	personalisedProfile
+	TextAlign: 	General
+	UnicodeCompression: 	True
+	item4	Text	255
+	AggregateType: 	-1
+	AllowZeroLength: 	True
+	AppendOnly: 	False
+	Attributes: 	Variable Length
+	CollatingOrder: 	General
+	ColumnHidden: 	False
+	ColumnOrder: 	5
+	ColumnWidth: 	Default
+	DataUpdatable: 	False
+	DisplayControl: 	Text Box
+	IMEMode: 	0
+	IMESentenceMode: 	3
+	OrdinalPosition: 	4
+	Required: 	False
+	SourceField: 	item4
+E:\This PC\Three Bean Barista\loginDB.accdb	25 May 2020
+Table: personalisedProfile	Page: 12
+	SourceTable: 	personalisedProfile
+	TextAlign: 	General
+	UnicodeCompression: 	True
+	price1	Text	255
+	AggregateType: 	-1
+	AllowZeroLength: 	True
+	AppendOnly: 	False
+	Attributes: 	Variable Length
+	CollatingOrder: 	General
+	ColumnHidden: 	False
+	ColumnOrder: 	6
+	ColumnWidth: 	Default
+	DataUpdatable: 	False
+	DisplayControl: 	Text Box
+	IMEMode: 	0
+	IMESentenceMode: 	3
+	OrdinalPosition: 	5
+	Required: 	False
+	SourceField: 	price1
+	SourceTable: 	personalisedProfile
+	TextAlign: 	General
+	UnicodeCompression: 	True
+	price2	Text	255
+	AggregateType: 	-1
+	AllowZeroLength: 	True
+	AppendOnly: 	False
+	Attributes: 	Variable Length
+	CollatingOrder: 	General
+	ColumnHidden: 	False
+	ColumnOrder: 	7
+	ColumnWidth: 	Default
+	DataUpdatable: 	False
+	DisplayControl: 	Text Box
+	IMEMode: 	0
+	IMESentenceMode: 	3
+	OrdinalPosition: 	6
+	Required: 	False
+	SourceField: 	price2
+	SourceTable: 	personalisedProfile
+	TextAlign: 	General
+	UnicodeCompression: 	True
+	price3	Text	255
+	AggregateType: 	-1
+	AllowZeroLength: 	True
+	AppendOnly: 	False
+	Attributes: 	Variable Length
+	CollatingOrder: 	General
+	ColumnHidden: 	False
+	ColumnOrder: 	8
+	ColumnWidth: 	Default
+	DataUpdatable: 	False
+	DisplayControl: 	Text Box
+	IMEMode: 	0
+E:\This PC\Three Bean Barista\loginDB.accdb	25 May 2020
+Table: personalisedProfile	Page: 13
+	IMESentenceMode: 	3
+	OrdinalPosition: 	7
+	Required: 	False
+	SourceField: 	price3
+	SourceTable: 	personalisedProfile
+	TextAlign: 	General
+	UnicodeCompression: 	True
+	price4	Text	255
+	AggregateType: 	-1
+	AllowZeroLength: 	True
+	AppendOnly: 	False
+	Attributes: 	Variable Length
+	CollatingOrder: 	General
+	ColumnHidden: 	False
+	ColumnOrder: 	9
+	ColumnWidth: 	Default
+	DataUpdatable: 	False
+	DisplayControl: 	Text Box
+	IMEMode: 	0
+	IMESentenceMode: 	3
+	OrdinalPosition: 	8
+	Required: 	False
+	SourceField: 	price4
+	SourceTable: 	personalisedProfile
+	TextAlign: 	General
+	UnicodeCompression: 	True
+	Relationships
+	personalisedProfileuserDetail
+	personalisedProfile	userDetail
+	pID	pID
+	Attributes: 	Not Enforced
+	RelationshipType: 	One-To-Many
+	Table Indexes
+	Name	Number of Fields
+	PrimaryKey	1
+	Clustered: 	False
+	DistinctCount: 	4
+	Foreign: 	False
+	IgnoreNulls: 	False
+	Name: 	PrimaryKey
+	Primary: 	True
+	Required: 	True
+	Unique: 	True
+	Fields:
+	pID	Ascending
+E:\This PC\Three Bean Barista\loginDB.accdb	25 May 2020
+Table: personalisedProfile	Page: 14
+	User Permissions
+	admin	Delete, Read Permissions, Set Permissions, Change Owner, Read Definition, 
+	Write Definition, Read Data, Insert Data, Update Data, Delete Data
+	Group Permissions
+	Admins	Delete, Read Permissions, Set Permissions, Change Owner, Read Definition, 
+	Write Definition, Read Data, Insert Data, Update Data, Delete Data
+	Users	Delete, Read Permissions, Set Permissions, Change Owner, Read Definition, 
+	Write Definition, Read Data, Insert Data, Update Data, Delete Data
+E:\This PC\Three Bean Barista\loginDB.accdb	25 May 2020
+Table: userDetail	Page: 15
+	Properties
+	DateCreated: 	09-09-2019 07:30:06 PM	LastUpdated: 	13-09-2019 12:10:54 AM
+	RecordCount: 	12	Updatable: 	True
+	Columns
+	Name	Type	Size
+	userID	Text	255
+	AllowZeroLength: 	False
+	AppendOnly: 	False
+	Attributes: 	Variable Length
+	CollatingOrder: 	General
+	DataUpdatable: 	False
+	OrdinalPosition: 	0
+	Required: 	False
+	SourceField: 	userID
+	SourceTable: 	userDetail
+	userName	Text	255
+	AllowZeroLength: 	False
+	AppendOnly: 	False
+	Attributes: 	Variable Length
+	CollatingOrder: 	General
+	DataUpdatable: 	False
+	OrdinalPosition: 	1
+	Required: 	False
+	SourceField: 	userName
+	SourceTable: 	userDetail
+	userPassword	Text	255
+	AllowZeroLength: 	False
+	AppendOnly: 	False
+	Attributes: 	Variable Length
+	CollatingOrder: 	General
+	DataUpdatable: 	False
+	OrdinalPosition: 	2
+	Required: 	False
+	SourceField: 	userPassword
+	SourceTable: 	userDetail
+	userPhone	Text	255
+	AllowZeroLength: 	False
+	AppendOnly: 	False
+	Attributes: 	Variable Length
+	CollatingOrder: 	General
+	DataUpdatable: 	False
+	OrdinalPosition: 	3
+	Required: 	False
+	SourceField: 	userPhone
+	SourceTable: 	userDetail
+	userFlag	Text	255
+E:\This PC\Three Bean Barista\loginDB.accdb	25 May 2020
+Table: userDetail	Page: 16
+	AllowZeroLength: 	False
+	AppendOnly: 	False
+	Attributes: 	Variable Length
+	CollatingOrder: 	General
+	DataUpdatable: 	False
+	OrdinalPosition: 	4
+	Required: 	False
+	SourceField: 	userFlag
+	SourceTable: 	userDetail
+	pID	Text	255
+	AllowZeroLength: 	False
+	AppendOnly: 	False
+	Attributes: 	Variable Length
+	CollatingOrder: 	General
+	DataUpdatable: 	False
+	OrdinalPosition: 	5
+	Required: 	False
+	SourceField: 	pID
+	SourceTable: 	userDetail
+	feedbackQuality	Long Integer	4
+	AllowZeroLength: 	False
+	AppendOnly: 	False
+	Attributes: 	Fixed Size
+	CollatingOrder: 	General
+	DataUpdatable: 	False
+	OrdinalPosition: 	6
+	Required: 	False
+	SourceField: 	feedbackQuality
+	SourceTable: 	userDetail
+	feedbackService	Long Integer	4
+	AllowZeroLength: 	False
+	AppendOnly: 	False
+	Attributes: 	Fixed Size
+	CollatingOrder: 	General
+	DataUpdatable: 	False
+	OrdinalPosition: 	7
+	Required: 	False
+	SourceField: 	feedbackService
+	SourceTable: 	userDetail
+	mID1	Text	255
+	AllowZeroLength: 	False
+	AppendOnly: 	False
+	Attributes: 	Variable Length
+	CollatingOrder: 	General
+	DataUpdatable: 	False
+	OrdinalPosition: 	8
+	Required: 	False
+	SourceField: 	mID1
+	SourceTable: 	userDetail
+	mID2	Text	255
+	AllowZeroLength: 	False
+E:\This PC\Three Bean Barista\loginDB.accdb	25 May 2020
+Table: userDetail	Page: 17
+	AppendOnly: 	False
+	Attributes: 	Variable Length
+	CollatingOrder: 	General
+	DataUpdatable: 	False
+	OrdinalPosition: 	9
+	Required: 	False
+	SourceField: 	mID2
+	SourceTable: 	userDetail
+	mID3	Text	255
+	AllowZeroLength: 	False
+	AppendOnly: 	False
+	Attributes: 	Variable Length
+	CollatingOrder: 	General
+	DataUpdatable: 	False
+	OrdinalPosition: 	10
+	Required: 	False
+	SourceField: 	mID3
+	SourceTable: 	userDetail
+	mID4	Text	255
+	AllowZeroLength: 	False
+	AppendOnly: 	False
+	Attributes: 	Variable Length
+	CollatingOrder: 	General
+	DataUpdatable: 	False
+	OrdinalPosition: 	11
+	Required: 	False
+	SourceField: 	mID4
+	SourceTable: 	userDetail
+	grandTotal	Text	255
+	AllowZeroLength: 	False
+	AppendOnly: 	False
+	Attributes: 	Variable Length
+	CollatingOrder: 	General
+	DataUpdatable: 	False
+	OrdinalPosition: 	12
+	Required: 	False
+	SourceField: 	grandTotal
+	SourceTable: 	userDetail
+	Relationships
+	personalisedProfileuserDetail
+	personalisedProfile	userDetail
+	pID	pID
+	Attributes: 	Not Enforced
+	RelationshipType: 	One-To-Many
+E:\This PC\Three Bean Barista\loginDB.accdb	25 May 2020
+Table: userDetail	Page: 18
+	Table Indexes
+	Name	Number of Fields
+	mID	1
+	Clustered: 	False
+	DistinctCount: 	9
+	Foreign: 	False
+	IgnoreNulls: 	False
+	Name: 	mID
+	Primary: 	False
+	Required: 	False
+	Unique: 	False
+	Fields:
+	mID1	Ascending
+	pID	1
+	Clustered: 	False
+	DistinctCount: 	0
+	Foreign: 	False
+	IgnoreNulls: 	False
+	Name: 	pID
+	Primary: 	False
+	Required: 	False
+	Unique: 	False
+	Fields:
+	pID	Ascending
+	PrimaryKey	1
+	Clustered: 	False
+	DistinctCount: 	4
+	Foreign: 	False
+	IgnoreNulls: 	False
+	Name: 	PrimaryKey
+	Primary: 	True
+	Required: 	True
+	Unique: 	True
+	Fields:
+	userID	Ascending
+	User Permissions
+	admin	Delete, Read Permissions, Set Permissions, Change Owner, Read Definition, 
+	Write Definition, Read Data, Insert Data, Update Data, Delete Data
+	Group Permissions
+	Admins	Delete, Read Permissions, Set Permissions, Change Owner, Read Definition, 
+	Write Definition, Read Data, Insert Data, Update Data, Delete Data
+	Users	Delete, Read Permissions, Set Permissions, Change Owner, Read Definition, 
+	Write Definition, Read Data, Insert Data, Update Data, Delete Data
