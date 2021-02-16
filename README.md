@@ -24,7 +24,7 @@ A GUI-based desktop application for an imaginary fantasized cafe shop that serve
 ![Image of Custom Order page](https://github.com/KushGabani/Three-Bean-Barista/blob/master/TBB%20Screenshots/CustomOrder.PNG)
 <hr>
 
-**FeedBack Page**
+**Feedback Page**
 ![Image of Feedback page](https://github.com/KushGabani/Three-Bean-Barista/blob/master/TBB%20Screenshots/Feedback.PNG)
 <hr>
 
